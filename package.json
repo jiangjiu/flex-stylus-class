@@ -1,0 +1,16 @@
+{
+  "name": "flex-stylus-class",
+  "version": "0.1.2",
+  "description": "classes of flex-stylus",
+  "main": "index.styl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stylus",
+    "flex",
+    "class"
+  ],
+  "author": "zhangsiyuan",
+  "license": "MIT"
+}
