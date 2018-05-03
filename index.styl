@@ -1,0 +1,41 @@
+/**
+ * @file flex-stylus-class
+ * @author zhangsiyuan(1021808625@qq.com)
+ */
+
+.c-flex
+    display flex
+    flex-direction row
+    height 100%
+    width 100%
+    // for android 4.3-
+    & > *
+        display: block
+    &.c__vertical
+        flex-direction column
+    &.c__wrap-reverse
+    flex-wrap wrap-reverse
+    &.c__wrap
+        flex-wrap wrap
+    &.c__flex-start
+        justify-content flex-start
+    &.c__flex-end
+        justify-content flex-end
+    &.c__center
+        justify-content center
+    &.c__space-between
+        justify-content space-between
+    &.c__space-around
+        justify-content space-around
+    &.i__flex-start
+        align-items flex-start
+    &.i__flex-end
+        align-items flex-end
+    &.i__center
+        align-items center
+    &.i__baseline
+        align-items baseline
+    &.i__stretch
+        align-items stretch
+
+
