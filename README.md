@@ -1,2 +1,2 @@
 # flex-stylus-class
-classes of flex-stylus
+🍓classes of flex-stylus
