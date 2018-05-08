@@ -5,7 +5,7 @@
 只提供源码  业务项目自行构建
 ## 目标
 - 简化常用布局✂️
-- 解决一次又一次的布局兼容性问题😤
+- 解决一次又一次的布局兼容性问题😤ios >= 8 android >= 4.3
 
  ![](http://ov35lvdq9.bkt.clouddn.com/15257694229621.jpg)
 
@@ -64,7 +64,7 @@ module.exports = {
 ...,
 "browserslist": [
     "iOS >= 8",
-    "Android >= 4.4"
+    "Android >= 4.3"
   ]
 ```
 **特别注意**：`browserslist`中一定要写`ios >= 8`, 否则iphone5s (ios8.3）会出现布局错乱的兼容性问题。
