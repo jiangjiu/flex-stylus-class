@@ -3,39 +3,52 @@
  * @author zhangsiyuan(1021808625@qq.com)
  */
 
-.c-flex
+//.c__flex > *
+//    display: block
+.c__flex
     display flex
     flex-direction row
     height 100%
     width 100%
     // for android 4.3-
-    & > *
-        display: block
+    &.c__flex-auto > *
+        flex auto
+    &.c__flex-equal > *
+        flex 1 1 0
     &.c__vertical
         flex-direction column
     &.c__wrap-reverse
-    flex-wrap wrap-reverse
+        flex-wrap wrap-reverse
     &.c__wrap
         flex-wrap wrap
-    &.c__flex-start
+    &.c__start
         justify-content flex-start
-    &.c__flex-end
+    &.c__end
         justify-content flex-end
     &.c__center
         justify-content center
-    &.c__space-between
+    &.c__between
         justify-content space-between
-    &.c__space-around
+    &.c__around
         justify-content space-around
-    &.i__flex-start
+    &.c__top
         align-items flex-start
-    &.i__flex-end
+    &.c__bottom
         align-items flex-end
-    &.i__center
+    &.c__middle
         align-items center
-    &.i__baseline
+    &.c__baseline
         align-items baseline
-    &.i__stretch
+    &.c__stretch
         align-items stretch
-
+    & .i__top
+        align-self flex-start
+    & .i__bottom
+        align-self flex-end
+    & .i__middle
+        align-self center
+    & .i__baseline
+        align-self baseline
+    & .i__stretch
+        align-self stretch
 
